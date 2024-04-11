@@ -1,10 +1,18 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from 'vue-router'
-import BlogHome from './components/BlogHome.vue'
+import HomeView from './views/HomeView.vue'
+
+export default {
+  components: {
+    RouterLink,
+    RouterView,
+    HomeView
+  }
+}
 </script>
 
 <template>
-  <BlogHome></BlogHome>
+  <HomeView/>
 </template>
 
 <style scoped>

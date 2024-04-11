@@ -1,11 +1,15 @@
-<script setup>
-
+<script>
+export default {
+    setup() {
+        return {}
+    }
+}
 </script>
 
 <template>
-    <h1> Hi, I'm Anxcye</h1>
+    <h1> Hi, I'm Anxcye🎉</h1>
     <br>
-    <h3> CS | XMU</h3>
+    <h3> CS | XMU | 2022 - 2026</h3>
 </template>
 
 <style scoped>
