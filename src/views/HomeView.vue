@@ -5,10 +5,7 @@
       <ProjectItem
         v-for="project in projectList"
         :key="project.title"
-        :title="project.title"
-        :description="project.description"
-        :link="project.link"
-        :openSourceLink="project.openSourceLink"
+        :project="project"
       />
     </div>
   </div>
@@ -27,55 +24,29 @@ export default {
     return {
       projectList: [
         {
-          title: "个人网站（本站）",
+          title: "个人网页（本站）",
           description: "本站使用Vue3作为框架，部署于Github Pages",
           link: "anxcye.com",
-          openSourceLink: "https://github.com/Anxcye/Anxcye.github.io"
+          openSourceLink: "https://github.com/Anxcye/Anxcye.github.io",
         },
         {
-          title: "Project 2",
-          description: "This is a description of project 2",
-          link: "https://www.google.com",
+          title: "ancy Blog",
+          description:
+            "一个功能丰富的个人博客。前端使用Vue3构建，后端使用Spring Boot构建",
+          link: "https://blog.anxcye.com",
+          openSourceLink: "https://github.com/Anxcye/ancy",
         },
         {
-          title: "Project 3",
-          description: "This is a description of project 3",
-          link: "https://www.google.com",
+          title: "安读 Anx Reader",
+          description: "支持多端同步的阅读器，使用flutter3构建，后端使用Spring Boot/Go构建",
+          // link: "https://www.google.com",
+          openSourceLink: "https://github.com/Anxcye/anx-reader",
         },
         {
-          title: "Project 4",
-          description: "This is a description of project 4",
-          link: "https://www.google.com",
-        },
-        {
-          title: "Project 5",
-          description: "This is a description of project 5",
-          link: "https://www.google.com",
-        },
-        {
-          title: "Project 6",
-          description: "This is a description of project 6",
-          link: "https://www.google.com",
-        },
-        {
-          title: "Project 7",
-          description: "This is a description of project 7",
-          link: "https://www.google.com",
-        },
-        {
-          title: "Project 8",
-          description: "This is a description of project 8",
-          link: "https://www.google.com",
-        },
-        {
-          title: "Project 9",
-          description: "This is a description of project 9",
-          link: "https://www.google.com",
-        },
-        {
-          title: "Project 10",
-          description: "This is a description of project 10",
-          link: "https://www.google.com",
+          title: "m-shoping",
+          description: "移动端购物页面，使用Vue2构建",
+          link: "anxcye.com/m-shopping",
+          openSourceLink: "https://github.com/Anxcye/m-shopping",
         },
       ],
     };
