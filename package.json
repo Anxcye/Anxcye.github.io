@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+      "deploy": "echo 'anxcye.com' > dist/CNAME && push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "pinia": "^2.1.7",
